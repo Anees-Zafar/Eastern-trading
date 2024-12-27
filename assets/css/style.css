@@ -2896,6 +2896,9 @@ section {
 .site-logo {
   margin-right: 100px;
 }
+.site-logo {
+  max-width: 250px;
+}
 @media only screen and (max-width: 991px) {
   .site-logo {
     max-width: 100px;
@@ -3982,7 +3985,7 @@ section {
 }
 @media only screen and (max-width: 575px) {
   .page-wrapper-two .banner-section .banner-thumb-two img {
-    width: 30%;
+    width: 50%;
   }
 }
 .page-wrapper-two .banner-section .banner-widget-one {
@@ -4046,6 +4049,16 @@ section {
 @media only screen and (max-width: 1199px) {
   .page-wrapper-two .banner-section .banner-widget-two {
     display: none;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .page-wrapper-two .banner-section .banner-widget-two {
+    display: block;
+    top: 30%;
+    width: 33%;
+    padding-right: 0px;
+  /* transform: translateY(-20%); */
+  right: 50%;
   }
 }
 .page-wrapper-two .banner-section .banner-widget-two .banner-widget-icon {
