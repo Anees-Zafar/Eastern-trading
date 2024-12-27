@@ -4051,16 +4051,7 @@ section {
     display: none;
   }
 }
-@media only screen and (max-width: 500px) {
-  .page-wrapper-two .banner-section .banner-widget-two {
-    display: block;
-    top: 30%;
-    width: 33%;
-    padding-right: 0px;
-  /* transform: translateY(-20%); */
-  right: 50%;
-  }
-}
+
 .page-wrapper-two .banner-section .banner-widget-two .banner-widget-icon {
   width: 40px;
   height: 40px;
@@ -7445,6 +7436,7 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
 */
 .brand-section {
   background-color: #FCFCFC;
+  /* overflow: hidden; */
 }
 
 .brand-slider {
