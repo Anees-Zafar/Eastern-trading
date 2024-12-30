@@ -8294,8 +8294,8 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
   margin-top: -3px;
 }
 .faq-wrapper .faq-item.open .faq-title {
-  background-color: #dcbb87;
-  color: #19232d;
+  background-color: #326ae9;
+  color: white;
 }
 .faq-wrapper .faq-item.open .right-icon::after {
   border-top: 3px solid #19232d;
