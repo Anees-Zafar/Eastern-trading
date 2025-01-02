@@ -391,6 +391,11 @@ blockquote .quote-icon {
 .ptb-120 {
   padding: 120px 0;
 }
+
+.ptb-1201 {
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
 @media only screen and (max-width: 991px) {
   .ptb-120 {
     padding: 80px 0;
@@ -802,7 +807,7 @@ background-color: #3269e923;
   position: absolute;
   top: 42%;
   left: -142px;
-  background-color: #FFF8EE;
+  background-color: white;
   transform: rotate(-90deg);
   color: #19232d;
   font-weight: 700;
