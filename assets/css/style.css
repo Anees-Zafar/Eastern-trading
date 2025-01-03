@@ -3145,6 +3145,24 @@ section {
   display: none;
   margin-left: 5px;
 }
+.header-action-area2 .action-btn2 {
+  width: 30px;
+  height: 30px;
+  /* line-height: 35px; */
+  /* display: inline-block; */
+  /* text-align: center; */
+  background-color: #3269e9;
+  border-radius: 5px;
+  color: #ffffff;
+  /* display: none; */
+  margin-left: 5px;
+}
+.moblogin{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
 .header-action-area .action-btn.two {
   font-size: 20px;
 }
